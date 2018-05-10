@@ -1,1 +1,3 @@
-json.name @name_2
+unless @message == nil      # same thing as saying if !(@message = nil)
+  json.message @message
+end
